@@ -1,3 +1,4 @@
 target/
 .idea/
-apache-tomcat-8.5.31/
+js/
+node_modules/
