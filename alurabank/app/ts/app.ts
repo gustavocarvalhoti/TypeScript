@@ -15,12 +15,8 @@
 // Instância de NegociacaoController para em seguida associar ao evento submit do formulário de index.html a chamada do método adiciona.
 const controller = new NegociacaoController();
 
+// Selecione de acordo com seu uso
 // HTMLInputElement
-/*
 document
   .querySelector('.form')
     .addEventListener('submit', controller.adiciona.bind(controller));
-*/
-
-// JQuery
-$('.form').submit(controller.adiciona.bind(controller));

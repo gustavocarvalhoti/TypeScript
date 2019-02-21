@@ -1,4 +1,4 @@
-class NegociacoesView extends View<Negociacoes> {
+class NegociacoesViewJQ extends ViewJQ<Negociacoes> {
 
   template(model: Negociacoes): string {
     return `
